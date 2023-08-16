@@ -9,6 +9,8 @@
     font-family: 'Russo One', sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -41,10 +43,21 @@ body {
 .col-4 h2 {
     color: #ffc107;
     font-family: 'Russo One', sans-serif;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .col-4 a {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-4 p {
+    min-height: 340px;
 }
 
 .card {
