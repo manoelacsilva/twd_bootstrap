@@ -11,6 +11,7 @@
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
+    font-size: 48px;
 }
 
 body {
@@ -98,6 +99,12 @@ body {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .col-4 p {
         min-height: 260px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container h1 {
+        font-size: 40px;
     }
 }
 
